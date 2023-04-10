@@ -1,13 +1,14 @@
 #include "holberton.h"
-
 /**
- * _memset - ironnou
- * @s: pointer to char params
- * @b: data to change
- * @n: index
- * Return: *s
+ *_memset - fills memory with constant byte
+ *
+ *@s:address to string
+ *@b:character to fill string
+ *@n:no. of spaces
+ *
+ *Return:pointer to memory area s
+ *
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
